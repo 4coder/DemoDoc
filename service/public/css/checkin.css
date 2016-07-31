@@ -1,0 +1,294 @@
+.main{
+	width: 1150px;
+background:#ffffff;
+}
+.info{
+	color:#0F0;
+	font-size: 19pt;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding:25px;
+	display:none;
+	}
+.conform_registration{
+	width:80%;
+	margin-left:10%;
+}
+.conform_registration h1{
+	color: #3699dd;
+    font-size: 19pt;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 883px;
+    text-decoration: none;
+    padding:25px;
+    width: 355px;
+	}
+.check_button{
+	width:265px;
+	margin-left:46%;
+	background-color: #ffffff;
+    background-image: linear-gradient(to bottom, #fe6afe, #f819f8);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: roboto;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 12px 19px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);}
+	
+	.conform_button{
+	width:265px;
+	margin-left:36%;
+	background-color: #090;
+    background-image: linear-gradient(to bottom, #fe6afe, #f819f8);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: roboto;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 12px 19px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);}
+	
+	.blank_button{
+	width:265px;
+	margin-left:36%;
+	background-color: #CCC;
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    color: #ffffff;
+    font-family: roboto;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 12px 19px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);}
+	
+	
+	.submit_button{
+	background-color: #0C3;
+    border-radius: 46px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: roboto;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 7px 19px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);}
+	
+	.cancel_button{
+	background-color: #f07905;
+    border-radius: 46px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: roboto;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 7px 19px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	}
+	
+.main td input{
+	 height: 41px;
+    width: 352px;
+     border: 1px solid;
+    border-radius: 7px;
+    border-color: #CCCCCC;
+}
+.main tr td{
+	line-height: 5;
+}
+.main h1{
+	 color: #3699dd;
+    font-size: 19pt;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 883px;
+    text-align: center;
+    text-decoration: none;
+    padding:12px;
+    width: 355px;
+}
+.main h5{
+	 color: #3699dd;
+    font-size: 19pt;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 883px;
+    text-align: center;
+    text-decoration: none;
+    
+    width: 328px;
+}
+.main h4{
+	   color: #fc46fb;
+      font-size: 16pt;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 87px;
+    margin-bottom: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+.final_conformation{
+		margin-left:10px;
+		display:none;
+	}
+.detail1{
+	
+    width:383px;
+}
+.detail1 input{
+	 border:1px solid #cccccc;
+    border-radius: 7px;
+    width: 352px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding:12px;
+}
+.detail2{
+	width:383px;
+   margin-left: 405px;
+    margin-top: -244px;
+    }
+    .detail2 input{
+	 border:1px solid #cccccc;
+    border-radius: 7px;
+    width: 352px;
+    padding:12px;
+    margin-bottom: 15px;
+}
+.detail3{
+    margin-bottom: 3px;
+    margin-left: 800px;
+    margin-top: -244px;
+    width: 383px;
+}
+.detail3 input{
+	border:1px solid #cccccc;
+    border-radius: 7px;
+    width: 352px;
+    padding:12px;
+    margin-bottom: 15px;
+}
+.main h2{
+	color: #fc46fb;
+      font-size: 16pt;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: -49px;
+    margin-top: 11px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom:27px;
+}
+.detail4{
+	width:383px;
+	margin-left: 402px;
+    margin-top: -44%;
+    }
+    .detail4 input{
+	 border:1px solid #cccccc;
+    border-radius: 7px;
+    width: 352px;
+    padding:12px;
+    margin-bottom: 15px;
+}
+.detail5{
+    margin-bottom: 3px;
+    margin-left: 794px;
+    margin-top: -45.5%;
+    width: 383px;
+}
+#Birthday_Month{margin-top: -3px;}
+#Birthday_Year{margin-top: -3px;}
+.detail5 input{
+	border:1px solid #cccccc;
+    border-radius: 7px;
+    width: 352px;
+    padding:12px;
+    margin-bottom: 15px;
+}
+.detail6{
+	
+    width:383px;
+}
+.detail6 input{
+	 border:1px solid #cccccc;
+    border-radius: 7px;
+    width: 337px;
+    margin-bottom: 15px;
+    margin-left: 36px;
+    padding:12px;
+}
+.detail7{
+      margin-bottom: 3px;
+    margin-left: 400px;
+    margin-top: -117px;
+    width: 383px;
+}
+.detail7 input{
+	border:1px solid #cccccc;
+    border-radius: 7px;
+    width: 343px;
+    padding:12px;
+    margin-bottom: 15px;
+    margin-left: 6px;
+}
+.detail8{
+  margin-bottom: 3px;
+    margin-left: 400px;
+    margin-top: -117px;
+    width: 383px;
+}
+.detail8 input{
+	border:1px solid #cccccc;
+    border-radius: 7px;
+    width: 352px;
+    padding:12px;
+    margin-bottom: 15px;
+}
+.main h6{
+	color: #fc46fb;
+      font-size: 16pt;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 11px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom:27px;
+}
+.reason1{margin-left: -373px;}
+.women{ margin-left: -372px;}
+.smoke{margin-left: 21px;
+    margin-top: -173px;}
+    .alc{ margin-left: 389px;
+    margin-top: -182px;}
+
+.hed {
+    margin-right: 69%;
+}

@@ -1,0 +1,255 @@
+.donate,
+.sidebar-tabs .nav li.active a,
+.pagination ul > li > a:hover,
+.likes:hover,
+.doctors-time > a
+{
+background-image: linear-gradient(bottom, rgb(53,153,219) 0%, rgb(112,170,204) 73%, rgb(53,153,219) 100%);
+background-image: -o-linear-gradient(bottom, rgb(53,153,219) 0%, rgb(112,170,204) 73%, rgb(53,153,219) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(53,153,219) 0%, rgb(112,170,204) 73%, rgb(53,153,219) 100%);
+background-image: -webkit-linear-gradient(bottom, rgb(53,153,219) 0%, rgb(112,170,204) 73%, rgb(53,153,219) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(53,153,219) 0%, rgb(112,170,204) 73%, rgb(53,153,219) 100%);
+
+background-image: -webkit-gradient(
+linear,
+left bottom,
+left top,
+color-stop(0, rgb(53,153,219)),
+color-stop(0.73, rgb(112,170,204)),
+color-stop(1, rgb(53,153,219))
+);
+	background-color: #49A3DF;
+}
+.camera_prev:hover, .camera_next:hover, 
+#slider1 .buttons:hover,
+.serve-hover span:hover, 
+#slider2 .buttons:hover,
+.main-page-tabs .nav li.active a, 
+#menu ul li ul > li:hover,
+.days li.active:after, 
+#search-form .search-submit,
+.doc-time:hover .doc-details,
+.accordians li h3:first-child:hover:before,
+.type4 .nav li.active a,
+.onhover a:hover,
+.client-meta > span,
+.serve-hover a:hover,
+.progress.indivisual .bar,
+.our-service h2 i,
+.error-404:before,
+header:before,
+#menu.menu2 ul li:hover > a,
+.service-block .span4:hover > h3:before,
+.service-block .span4:hover > h3:after,
+.main-title h1:before,
+.intro-box-title > h2:after,
+.performance .progress .bar,
+.accordions dt a,
+.fill,
+#pager2 a.selected span ,
+.team-modern,
+.menu-strip,
+.open-header
+{
+	background-color: #49A3DF;
+		/*background-color: #ff66ff;*/ /* pink */
+}
+.sidebox-head, 
+.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, 
+.contact-form form .submit:hover, 
+.skill-left > h4:after,
+.blog-post-views,
+#slider3 .buttons:hover,
+.team-grid-title > span,
+.donate-updown,
+.gallery-column:hover .img-title,
+.bottom-footer ul,
+.bottom-footer:After,
+#menu.menu2 li ul li > a:after,
+.service-hover,
+.cols h2:after,
+.why-us dt a.activate:before ,
+.sidebar-widget ul .sub-list,
+.header2 #menu > ul > li:hover > a
+{
+	background-color: #3598DB;
+}
+header,
+.slider-area, 
+#slider1 .overview li:hover,
+.doc:hover .caption, 
+.gallery-item:hover:after,
+.our-service > p,
+.recent-event-img:hover,
+.post-intro,
+.team-list-desc h2,
+.team-list-img:hover,
+.gallery-column:hover,
+.post-gallery,
+.toggle-img:after,
+.toggle-img:before,
+.toggle-title,
+.service-block .span4:hover > h3,
+.simple-title 
+{
+	border-color:#3598DB;
+}
+.testimonials,
+.blog-list-img:hover,
+.post-image,
+.post-video,
+.flickr-images > a:hover,
+.team-member:hover .contact-bar,
+#menu.menu2 li ul  li  ul li:hover a,
+#menu.menu2 li ul  li:hover > a 
+{
+	border-color:#49A3DF;
+}
+.triangle-design, 
+#slider2 .overview li:hover .triangle-design,
+.type3 .nav li.active a,
+.mCSB_dragger_bar:before,
+.blog-list-date,
+.doc:hover,
+.star li.fill, 
+.star li.fill:before, 
+.star li.fill:after,
+.team-img
+{
+	border-bottom-color:#3598DB;
+}
+#menu ul li ul,
+.aboutus .nav li.active a,
+.gallery-tabs .nav li.active a, 
+.gallery-tabs .nav li.active a:hover,
+.gallery-tabs .nav li a:hover,
+.pricing ul:hover .price-head:after,
+.bottom-footer ul:before,
+.controls li.active 
+{
+	border-top-color:#3598DB;
+}
+.tab-post:hover,
+.viewall:before
+{
+	border-left-color:#3598DB;
+}
+#menu li:hover > a, 
+.speciality, 
+ul.round li.roundabout-in-focus h3
+,#tweets li h5, 
+.star, 
+.continue,
+.continue:hover,
+.tabpost-detail > p a:hover,
+.tag-clouds > a:hover,
+.replies,
+.reply,
+.member-name > span,
+.type3 .nav li.active a,
+.readmore:hover,
+.error-404 h1 span,
+#menu.menu2 li ul  li  ul li:hover a,
+#menu.menu2 li ul  li:hover > a,
+.post-details h2 a:hover,
+.abt-client > p,
+.caption > h5:first-child,
+a,a:hover,
+.sidebar-widget .viewall,
+.records li span,
+.business-block h4 a:hover,
+.business-block .accordions dt a:before,
+.business-block .accordions dt a.activate,
+.team-title h2,
+.services-modern .span4:hover i, 
+.services-modern .span4:hover h3,
+.recent-event-desc h2 a 
+ {
+	color:#49A3DF;
+}
+.slogan, 
+#slider2 .overview li:hover h4, 
+.main-page-tabs .tab-content .days li.active a, 
+.footer-title > span,
+.published-date .blue,
+.service-doc .details span,
+.aboutus .nav li.active a,
+.sidebar-widget-title span,
+.main-title span,
+.blog-list-desc h3:hover a,
+.grid-view h3:hover a,
+#slider3 .overview li h6 a:hover,
+.recent-event-desc h2:hover a,
+.tag-clouds > h4,
+.comment-details > h6,
+.readmore:hover ,
+.days li.active a,
+.days li.active a:focus,
+.days li.active a:hover,
+.staff-desc h3
+{
+	color:#3598DB;
+}
+.coloured {
+	color:#3598db;
+}
+.img-title,
+.post-img:after,
+.video-title,
+.team-intro,
+.portfolio-style-img:before
+{
+	background-color:rgba(53, 153, 219, 0.9);
+	
+}
+
+.continue {
+    background:url("../img/cont-read-blue.png") no-repeat scroll 0 center transparent;
+}
+.views-icons a{
+	background-image:url("../img/list-grid-view-blue.png");
+}
+.recent-event-links > a{
+	background:url("../img/recent-events-link-blue.png") no-repeat 0 1px transparent;
+}
+.pricing li {
+	background:url("../img/list-icon-blue.png") no-repeat 35px center #F9F8F8;
+}
+.pricing ul:hover .price-head, .pricing ul:hover .subscribe button {
+	background:url("../img/pricing-hover-blue.png") repeat 0 0 transparent;
+}
+
+/* MY STYLES */
+.team-moderns
+{
+	background:url(../img/dictate-slider5.jpg) top repeat-y;
+	padding: 75px 0;
+    width: 100%;
+	margin-top:100px;
+	height:300px;
+	background-size:100%;
+
+}
+.team-modern-1
+{
+	background-color:#f5f5f5;
+	float: left;
+    margin-top: -13px;
+    padding: 55px 0;
+    width: 100%;
+	border-top:2px solid #ccc;
+	border-bottom:2px solid #ccc;
+}
+
+
+.team-modern-12
+{
+	background-color:#fff;
+	float: left;
+    margin-top: -13px;
+    padding: 55px 0;
+    width: 100%;
+	border-top:2px solid #ccc;
+	 
+}
+

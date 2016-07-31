@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font-size:13px;}
+
+
+.doctorsearchbox{ border: 1px solid #148394; border-radius: 5px; box-shadow: 0 0 4px #777; }
+.bluebox{ background-clip: padding-box; background-color: #2a9cdc;  border: 1px solid #52a7b9; border-radius: 2px;  position: relative; }
+
+
+.texlab{clear: both; margin-top:20px;}
+.texlab ul li{ display:inline-block; list-style:none;}
+.texlab ul{ padding-left:20px;}
+.searchname{font-weight: 700; margin-top: 10px; color: #fff; text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.298); display: block; font-size: 14px;}
+.textarea{ height: 23px; width: 12.5em; background: none repeat scroll 0 0 padding-box #fff; border-color: #908f8f #b1b0b0 #c1c0c0; border-radius: 1px;border: solid 1px;
+           box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15) inset;
+           font-family: Arial,Helvetica,sans-serif;
+           font-size: 14px;
+           line-height: 21px;
+           padding: 1px 10px;}
+		   
+.docsearchbtn{ float:right; text-align: center; margin-top: -51px;}
+.searchbtn{ background-color: #f6b02a; background-image: linear-gradient(to bottom, #f6b02a, #ee6616); border: 2px solid #fff; border-radius: 17px; box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3); color: #fff; cursor: pointer; font-size: 16px; font-weight: 700; line-height: 16px; margin-right: 18px; min-width: 50px; overflow: visible; padding: 5px 25px 6px; position: relative; text-align: center; text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.2);}
+.searchbtn:hover{ background-color:#fab955;  background-image: linear-gradient(to bottom, #fab955, #ed7c2c);color:#fff;}
+
+
+.menuicons{float: left; margin-top: 20px;}
+.menuicons ul{ text-align: right;   width: 100%;}
+.menuicons ul li{ float: right; text-align: center; list-style:none; border-bottom: 2px solid #d0d0d0;}
+.menuicons ul li a{line-height: 18px; text-decoration: none !important; vertical-align: baseline; color: #41a1b7; padding-left: 13px; padding-right:13px;}
+.menuicons ul li:hover{ border-bottom: 2px solid #41a1b7 ;  background-repeat:no-repeat;}
+.menuicons ul li:hover a{color: #41a1b7;
+    font-size: 1em;
+    font-weight: 700;
+    position: relative;  }
+
+.recent a{ }
+	
+.doctrdetails1 h3{font-size: 100%; font-weight: 400; margin-top: 50px; font-size: 100%;}
+.doctrdetails1 ul li{color: #4c4c4c;  line-height: 18px; list-style:none;}
+.doctradrs a{color: #41a1b7; font-weight: 700; text-decoration: none; }
+.doctradrs a:hover{ text-decoration:underline;}
+.Titleadrs{ color: #666;font-size: 10px;font-weight: 700;}
+.doctrdetails1{ margin-top:10px; }
+.doctrdetails1{ display:block;}	
+.doctradrs{font-size: 16px;}
+.doctrdetails1 ul{margin: 20px 0 0;}
+.rightdocdetails{ margin-left: 45px;}	
+	
+
+	
+.menuicons ul .recent{ color: #41a1b7;  font-size:1em; font-weight: 700; position: relative;}
+
+.triangle{ }
+li:hover .triangle{border-color: #41a1b7 transparent -moz-use-text-color; border-style: solid solid none;  border-width: 8px 6px 0; height: 0; margin: 0 auto -8px; width: 0;}
+	
+{}
+	
+	
+	
+	
+	

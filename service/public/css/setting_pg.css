@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* CSS Document */
+.thtxt{
+	color: #09c;
+    font-size: 12px;
+	text-align:center;
+}
+
+/*btn style*/
+.fileinput-button {
+    margin-right: 5px;
+    padding: 10px !important;
+}
+ .btn1 {
+	 width:110px;
+	 
+ /* background: #ff5bff;
+  background-image: -webkit-linear-gradient(top, #ff5bff, #ff27ff);
+  background-image: -moz-linear-gradient(top, #ff5bff, #ff27ff);
+  background-image: -ms-linear-gradient(top, #ff5bff, #ff27ff);
+  background-image: -o-linear-gradient(top, #ff5bff, #ff27ff);
+  background-image: linear-gradient(to bottom, #ff5bff, #ff27ff);*/
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 6px;
+  text-decoration: none;
+}
+.btn1 a{color:white;}
+
+
+/*btn style end*/
+/* tabs style*/
+.tabs li { 
+  /* Makes a horizontal row */
+  float: left; 
+	
+  /* So the psueudo elements can be
+     abs. positioned inside */
+  position: relative; 
+}
+.tabs a { 
+  /* Make them block level
+     and only as wide as they need */
+  float: left; 
+  padding: 10px 40px; 
+  text-decoration: none;
+  
+  /* Default colors */ 
+  color: black;
+  background: #ECECEC; 
+  
+  /* Only round the top corners */
+  -webkit-border-top-left-radius: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; 
+}
+.tabs .active {
+  /* Highest, active tab is on top */
+/*  z-index: 3;
+*/}
+.tabs .active a { 
+  /* Colors when tab is active */
+  background: white; 
+  color: black; 
+}
+.tabs li:before, .tabs li:after, 
+.tabs li a:before, .tabs li a:after {
+  /* All pseudo elements are 
+     abs. positioned and on bottom */
+  position: absolute;
+  bottom: 0;
+}
+/* Only the first, last, and active
+   tabs need pseudo elements at all */
+.tabs li:last-child:after,   .tabs li:last-child a:after,
+.tabs li:first-child:before, .tabs li:first-child a:before,
+.tabs .active:after,   .tabs .active:before, 
+.tabs .active a:after, .tabs .active a:before {
+
+}
+.tabs .active:before, .tabs .active:after {
+  background: white; 
+  
+  /* Squares below circles */
+  z-index: 1;
+}
+/* Squares */
+.tabs li:before, .tabs li:after {
+  background: #ddc385;
+  width: 10px;
+  height: 10px;
+}
+.tabs li:before {
+  left: -10px;      
+}
+.tabs li:after { 
+  right: -10px;
+}
+/* Circles */
+.tabs li a:after, .tabs li a:before {
+  width: 20px; 
+  height: 20px;
+  /* Circles are circular */
+  -webkit-border-radius: 10px;
+  -moz-border-radius:    10px;
+  border-radius:         10px;
+  background: #222;
+  
+  /* Circles over squares */
+  z-index: 2;
+}
+.tabs .active a:after, .tabs .active a:before {
+  background: #ddc385;
+}
+/* First and last tabs have different
+   outside color needs */
+.tabs li:first-child.active a:before,
+.tabs li:last-child.active a:after {
+  background: #222;
+}
+.tabs li a:before {
+  left: -20px;
+}
+.tabs li a:after {
+  right: -20px;
+}
+  /*tabs style end*/
+.fileinput-button {
+    overflow: hidden;
+    position: relative;
+}
+.fileinput-button input {
+    cursor: pointer;
+    direction: ltr;
+    font-size: 200px;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.template-upload.fade.in td {
+    text-align: center;
+    width: 33.33%;
+}
+.out {
+    
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #428bca;
+    color: #fff;
+}
+
+
+.stbttn {
+    background: #F30;
+    border-radius: 6px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 6px;
+    text-decoration: none;
+    width: 110px;
+}
+.progress {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.invisiblebutton {
+      background-color: #da4f49;
+    background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}​
+.st_btn-button {
+    overflow: hidden;
+    position: relative;
+}
+.st_btn-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+}
+@-webkit-keyframes progress-bar-stripes{
+	from{background-position:40px 0}to{background-position:0 0}}
+	@keyframes progress-bar-stripes{
+		from{background-position:40px 0}to{background-position:0 0}}
+.progress{
+	overflow:hidden;
+	height:20px;
+	margin-bottom:20px;
+	background-color:#f5f5f5;
+	border-radius:4px;-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,.1);
+	box-shadow:inset 0 1px 2px rgba(0,0,0,.1)
+}
+.progress-bar{
+	float:left;
+	width:0;
+	height:100%;
+	font-size:12px;
+	line-height:20px;
+	color:#fff;
+	text-align:center;
+	background-color:#428bca;
+	-webkit-box-shadow:inset 0 -1px 0 rgba(0,0,0,.15);
+	box-shadow:inset 0 -1px 0 rgba(0,0,0,.15);
+	-webkit-transition:width .6s ease;transition:width .6s ease
+	}
+	.progress-striped .progress-bar{
+		background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+		background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+		background-size:40px 40px
+}
+.progress.active .progress-bar{
+	-webkit-animation:progress-bar-stripes 2s linear infinite;animation:progress-bar-stripes 2s linear infinite
+}
+.progress-bar-success{
+	background-color:#5cb85c
+}
+.progress-striped .progress-bar-success{
+	background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent)
+}
+.progress-bar-info{
+	background-color:#5bc0de
+}
+.progress-striped .progress-bar-info{
+	background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent)
+}
+.progress-bar-warning{
+	background-color:#f0ad4e
+}
+.progress-striped .progress-bar-warning{
+	background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent)
+}
+.progress-bar-danger{
+	background-color:#d9534f
+}
+.progress-striped .progress-bar-danger{
+	background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent)
+}
+
+
+
+.col-lg-7 {
+	margin:0 0 0 40px;
+}
